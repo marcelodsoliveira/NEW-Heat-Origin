@@ -1,9 +1,8 @@
 const LinksSocialMedia = {
   github: 'marcelodsoliveira',
-  youtube: 'UC1qcnjeOraOS2pS90J0Xuxw',
   facebook: 'oliveira.lnx',
   instagram: 'marcelo.lnx',
-  linkedin: 'marcelo-oliveira-607032103'
+  linkedin: 'in/marcelo-oliveira-607032103'
 }
 
 function changeSocialMediaLinks() {
