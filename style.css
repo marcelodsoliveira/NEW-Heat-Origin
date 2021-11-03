@@ -1,5 +1,6 @@
 * {
-  margin: 0;
+  margin: 0%;
+  padding: 0%;
 }
 
 html, body {
@@ -12,9 +13,9 @@ html, body {
 body {
   display: grid;
   place-items: center;
-  background: radial-gradient(ellipse at bottom, Fe2e90 0%, #191621 65%);
+  background: radial-gradient(ellipse at bottom, #Fe2e90 0%, #191621 65%);
   background-size: 300% 300%;
-  animation: color 15s ease infinite;
+  animation: colors 15s ease infinite;
 }
 
 @keyframes colors {
@@ -32,9 +33,9 @@ body {
 }
 
 main {
-  background: url(./images/background.svg) no-repeat center/cover;
+  background: url(./images/background_container.svg) no-repeat center/cover;
   width: 358px;
-  height: 680px;
+  height: 760px;
 }
 
 .container {
@@ -62,7 +63,7 @@ main {
   width: 10rem;
   height: 11.5rem;
   object-fit: cover;
-  clip-path: polygon(51% 0, 100% 27%, 100% 72%, 51% 100%, 0 72%, 0 27%);
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
 h1 {
@@ -185,7 +186,7 @@ li a img:hover {
   }
 
   main {
-    background: url(images/background_container_mobile.svg) no-repeat center/cover;
+    background: url(./images/background_container_mobile.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 812px;
     height: 100vh;
